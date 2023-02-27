@@ -1,0 +1,159 @@
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  .header_menu > ul > li {
+    margin-right: 25px;
+  }
+
+  .btn {
+    width: 170px;
+  }
+
+  .main-swiper .swiper-slide .text_wrap {
+    bottom: 110px;
+    padding: 0 30px;
+  }
+  .sec_2 h2 {
+    font-size: 24px;
+  }
+  .sec_2 p {
+    font-size: 15px;
+    width: 340px;
+  }
+  .sec_2 .img_wrap {
+    width: 590px;
+    height: 480px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .toggle_menu {
+    display: block;
+    height: 36px;
+    outline: none;
+    text-align: center;
+  }
+  .toggle_menu span {
+    display: block;
+  }
+
+  .sandwich {
+    width: 28px;
+    height: 28px;
+    top: 8px;
+    margin: auto;
+    z-index: 2;
+  }
+
+  .topper,
+  .bottom,
+  .footer {
+    position: relative;
+    height: 2px;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    width: 28px;
+  }
+  .topper {
+    top: 0;
+    display: block;
+    transition: transform 0.5s, top 0.2s;
+  }
+
+  .bottom {
+    top: 6.6px;
+    transition: transform 0.5s, top 0.2s;
+    transition-delay: 0.2s, 0s;
+  }
+
+  .footer {
+    top: 14.5px;
+    transition: all 0.5s;
+    transition-delay: 0.1s;
+  }
+
+  .sandwich.active .topper {
+    top: 9px;
+    transform: rotate(-45deg);
+  }
+
+  .sandwich.active .bottom {
+    top: 7px;
+    transform: rotate(45deg);
+  }
+
+  .sandwich.active .footer {
+    opacity: 0;
+  }
+
+  .header_right {
+    display: none;
+  }
+
+  .header_menu {
+    display: none;
+    width: 100%;
+    background-color: #202020;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    padding: 150px 0;
+    box-sizing: border-box;
+  }
+
+  .header_menu_block_state {
+    display: block;
+  }
+
+  .header_menu > ul > li {
+    text-align: center;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .header_menu > ul > li > a {
+    font-size: 17px;
+    line-height: 16px;
+    padding: 25px 0;
+    display: block;
+  }
+
+  .header_left > img {
+    position: relative;
+    z-index: 9;
+  }
+
+  .header_right_mobile {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .header_right_mobile > .lang {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .sec_2 .img_wrap {
+    width: 500px;
+    height: 370px;
+  }
+
+  .sec_2 p {
+    width: 215px;
+    font-size: 14px;
+  }
+
+  .sec_2 h2 {
+    font-size: 20px;
+  }
+
+  .sec_2 .btn_wrap > a {
+    font-size: 12px;
+  }
+}
